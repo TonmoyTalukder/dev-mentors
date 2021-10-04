@@ -15,11 +15,13 @@ const FindUs = () => {
                     <div className="container p-5 rounded container-bg ">
                         <div className="container p-5 my-5 rounded container-bg text-light">
                             <div className="container">
-                                <div className="row align-items-center justify-content-center">
-                                    <div className="col-lg-4 col-sm-12">
+                                <div className="row align-items-center justify-content-center font-monospace">
+                                    <div className="col-lg-4 col-sm-12 font-monospace">
                                         <img className="mx-auto w-50" src={img} alt="" />
-                                        <br />{element}
+                                        <br />
                                         <h1>Our Branches</h1>
+                                        <h6>Reach Us</h6>
+                                        <b>_________________</b>
                                     </div>
                                     <div className="col-lg-4 col-sm-12">
                                         <div className="container">
