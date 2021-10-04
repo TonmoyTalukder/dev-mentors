@@ -10,7 +10,7 @@ const Review = () => {
     const element2 = <FontAwesomeIcon icon={faStarHalfAlt} />
     return (
         <div className="mb-5 p-5">
-            <h2 className="m-5 p-3">Students' Review</h2>
+            <h2 className="m-5 p-3 font-monospace fs-1 textdeco">Students' Review</h2>
            <div className="card-group">
   <div className="card">
     <img src={image1} className="card-img-top img-fluid " alt="..."/>
