@@ -1,7 +1,12 @@
 import React from 'react';
 import './FindUS.css';
+import { faLocationArrow } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import img from '../images/logo.png';
 
 const FindUs = () => {
+    const element = <FontAwesomeIcon icon={ faLocationArrow }/>
+
     return (
         <div>
             <div className="container">
@@ -12,22 +17,27 @@ const FindUs = () => {
                             <div className="container">
                                 <div className="row align-items-center justify-content-center">
                                     <div className="col-lg-4 col-sm-12">
+                                        <img className="mx-auto w-50" src={img} alt="" />
+                                        <br />{element}
                                         <h1>Our Branches</h1>
                                     </div>
                                     <div className="col-lg-4 col-sm-12">
                                         <div className="container">
                                             <div className="row gy-5">
                                                 <div className="col-12 align-self-center">
+                                                    {element}
                                                     <h3>Dhanmandi</h3>
                                                     <p>Dhaka, Bangladesh</p>
                                                     <p><i>Contact: +880 1880 788228</i></p>
                                                 </div>
                                                 <div className="col-12 align-self-center">
+                                                    {element}
                                                     <h3>Basundhara</h3>
                                                     <p>Dhaka, Bangladesh</p>
                                                     <p><i>Contact: +880 1880 788228</i></p>
                                                 </div>
                                                 <div className="col-12 align-self-center">
+                                                    {element}
                                                     <h3>CU Campus</h3>
                                                     <p>Chittagong, Bangladesh</p>
                                                     <p><i>Contact: +880 1880 788228</i></p>
