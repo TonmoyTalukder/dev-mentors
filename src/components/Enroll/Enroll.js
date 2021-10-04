@@ -8,8 +8,8 @@ const Enroll = () => {
              <div className=" ms-5 mb-5 ">
             <div className="row g-3">
             <div className="col-sm-6">
-              <label for="firstName" className="form-label">First name</label>
-              <input type="text" className="form-control" id="firstName" placeholder="" value="" required=""/>
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="First name" aria-label="First name"  required=""/>
               <div className="invalid-feedback">
                 Valid first name is required.
               </div>
@@ -17,7 +17,7 @@ const Enroll = () => {
 
             <div className="col-sm-6">
               <label for="lastName" className="form-label">Last name</label>
-              <input type="text" className="form-control" id="lastName" placeholder="" value="" required=""/>
+              <input type="text" className="form-control" id="lastName" placeholder="Last name" aria-label="Last name" required=""/>
               <div className="invalid-feedback">
                 Valid last name is required.
               </div>
