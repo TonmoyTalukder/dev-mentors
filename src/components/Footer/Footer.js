@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="bg-dark text-light font-monospace m-0 p-5">
             <div>
-                <h6> &#169; 2021, All copyrights reserved by Tonmoy.</h6>
+                <h6> &#169; 2021, All copyrights reserved by Tonmoy Talukder</h6>
             </div>
         </div>
     );

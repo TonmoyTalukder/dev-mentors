@@ -9,6 +9,7 @@ import About from './components/About/About';
 import FindUs from './components/FindUs/FindUs';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
+import Enroll from './components/Enroll/Enroll';
  
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route exact path="/findus">
             <FindUs></FindUs>
+          </Route>
+          <Route exact path="/enroll">
+           <Enroll></Enroll>
           </Route>
           <Route path="/*">
             <NotFound></NotFound>

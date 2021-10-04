@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
+import "./OurCourses.css"
+
 
 const OurCourses = () => {
     const [courses, setCourses] = useState([]);
@@ -13,7 +15,7 @@ const OurCourses = () => {
     }, [])
     return (
         <div>
-            <h3 className="font-monospace fs-1">All of Our Courses...</h3>
+             <h2 className="font-monospace fs-1 textdeco">Our Courses</h2>
             {
                 courses.map(course => <Course
                     course={course}
