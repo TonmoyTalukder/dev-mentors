@@ -15,12 +15,12 @@ const Course = (props) => {
                     <div className="d-flex justify-content-center">
                         <div className="container-fluid p-4 m-3 border border-3 border-secondary rounded bg-light">
                             <div className="row gy-5 align-items-center">
-                                <div className="col p-0">
+                                <div className="col-lg-6 col-md-12 p-0">
                                     <div className="p-0">
                                         <img className="image" src={img} alt="" />
                                     </div>
                                 </div>
-                                <div className="col p-0">
+                                <div className="col-lg-6 col-md-12 p-0">
                                     <div className="p-3 text-start">
                                         <h2>{title}</h2>
                                         <h5 className="text-danger"><b>Fees: $ {fees}</b></h5>
