@@ -8,10 +8,10 @@ const Header = () => {
     const [flip, set] = useState(false)
   const props = useSpring({
     to: { opacity: 1 },
-    from: { opacity: 0 },
+    from: { opacity: 0.1 },
     reset: true,
     reverse: flip,
-    delay: 500,
+    delay: 1500,
     // config: config.molasses,
     onRest: () => set(!flip),
   })
