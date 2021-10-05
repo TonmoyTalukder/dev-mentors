@@ -42,7 +42,7 @@ const Review = () => {
                       <div class="col-lg-4 col-md-12 col-sm-12 p-0">
                         <div class="p-0">
                           <button  type="button" className="btn btn-secondary m-2">
-                            <Link className="text-light text-decoration-none" to="/about">About Us</Link>
+                            <Link className="text-light text-decoration-none" to="/findus">Find Us</Link>
                           </button>
                         </div>
                       </div>
@@ -72,7 +72,7 @@ const Review = () => {
                       <div class="col-lg-4 col-md-12 col-sm-12 p-0">
                         <div class="p-0">
                           <button  type="button" className="btn btn-secondary m-2">
-                            <Link className="text-light text-decoration-none" to="/about">About Us</Link>
+                            <Link className="text-light text-decoration-none" to="/findus">Find Us</Link>
                           </button>
                         </div>
                       </div>
@@ -102,7 +102,7 @@ const Review = () => {
                       <div class="col-lg-4 col-md-12 col-sm-12 p-0">
                         <div class="p-0">
                           <button  type="button" className="btn btn-secondary m-2">
-                            <Link className="text-light text-decoration-none" to="/about">About Us</Link>
+                            <Link className="text-light text-decoration-none" to="/findus">Find Us</Link>
                           </button>
                         </div>
                       </div>
