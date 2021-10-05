@@ -2,6 +2,7 @@ import React from 'react';
 import './FeaturedCourses.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Course = (props) => {
     const {title, img, fees, description} = props.course;
@@ -28,6 +29,9 @@ const Course = (props) => {
                                         <div>
                                             {element} {element} {element} {element} {element2}
                                         </div>
+                                        <button  type="button" className="btn btn-secondary my-2">
+                                            <Link className="text-light text-decoration-none" to="/ourcourses">Browse All Courses</Link>
+                                        </button>
                                     </div>
                                 </div>
                             </div>

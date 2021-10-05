@@ -44,7 +44,7 @@ const Enroll = () => {
             <div className="col-md-6">
               <label for="country" className="form-label">Course</label>
               <select className="form-select" id="country" required="">
-                <option value="">Choose Course ID</option>
+                <option value="">Choose Course</option>
                 <option>React JS</option>
                 <option>Node JS</option>
                 <option>Database</option>
