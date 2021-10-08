@@ -20,7 +20,7 @@ const HeaderNav = () => {
                             <NavLink className="nav-link" to="/ourcourses"><span className="fs-4  font-monospace">Our Courses</span></NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink className="nav-link" to="/about"><span className="fs-4  font-monospace">About US</span></NavLink>
+                            <NavLink className="nav-link" to="/about"><span className="fs-4  font-monospace">About Us</span></NavLink>
                             </li>
                             <li className="nav-item">
                             <NavLink className="nav-link" to="/findus"><span className="fs-4  font-monospace">Find Us</span></NavLink>

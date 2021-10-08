@@ -10,7 +10,7 @@ const FindUs = () => {
     return (
         <div>
             <div className="container">
-                <h2 className="font-monospace fs-1 textdeco">Explore us</h2>
+                <h2 className="font-monospace fs-1 textdeco">Explore Us</h2>
                 <div className="container container-bg rounded-3 shadow p-3 my-5">
                     <div className="container p-5 rounded container-bg ">
                         <div className="container p-5 my-5 rounded container-bg text-light">
