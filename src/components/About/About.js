@@ -7,10 +7,9 @@ const About = () => {
         <div className="container">
             <div>
             <h1 className="font-monospace fs-1 textdeco">About US</h1>
-            <h4 className="fst-italic text-muted">Dev Mentors'</h4>
             </div>
-           
-                <div className="container shadow my-5 bg-light about p-5">
+            <div className="container shadow my-5 bg-light about p-5">
+                <h4 className="fst-italic text-muted">Dev Mentors'</h4>
                 <img src={img} alt="" className="img-fluid Dev-Mentors-Logo"/>
                     <div className="rounded bg-light ">
                         <div className="rounded  bg-light text-secondary">
