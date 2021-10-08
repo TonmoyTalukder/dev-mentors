@@ -7,8 +7,15 @@
 
 .course-card-custom-style {
   background-color: rgb(255, 255, 255);
+  height: 100%;
 }
 .course-card-custom-style:hover {
   -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #837e7e;
+}
+
+.img-gray:hover {
+  filter: grayscale(1);
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #414949;
 }

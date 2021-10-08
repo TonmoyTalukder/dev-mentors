@@ -17,7 +17,7 @@ const Course = (props) => {
                             <div className="row gy-5 align-items-center">
                                 <div className="col-lg-7 col-md-12 p-0">
                                     <div className="p-0">
-                                        <img className="image" src={img} alt="" />
+                                        <img className="image img-gray" src={img} alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-5 col-md-12 p-0">
