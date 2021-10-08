@@ -9,19 +9,19 @@ const Course = (props) => {
     const element = <FontAwesomeIcon icon={faStar} />
 
     return (
-        <div className="col-5 p-0 m-4 course-card-custom-style">
+        <div className="col-lg-5 col-md-10 p-0 m-4 course-card-custom-style">
                 <div className="card p-0 bg-light">
                     <div className="d-flex justify-content-center m-0 p-0">
                         <div className="p-0 m-3 border border-3 border-secondary rounded bg-light">
                             <div className="row gy-5 align-items-center course-card">
-                                <div className="col-lg-7 col-md-12 p-0">
-                                    <div className="p-0">
+                                <div className="col-lg-6 col-md-12 p-0">
+                                    <div className="p-0 my-3">
                                         <img className="image img-gray" src={img} alt="" />
                                     </div>
                                 </div>
-                                <div className="col-lg-5 col-md-12 p-0">
-                                    <div className="p-3 text-start">
-                                        <h2>{title}</h2>
+                                <div className="col-lg-6 col-md-12 p-0">
+                                    <div className="p-3 text-start ms-2 border-start">
+                                        <h4>{title}</h4>
                                         <h5 className="text-danger"><b>Fees: </b>$ {fees}</h5>
                                         <p><b>Course Details : </b>{description}</p>
                                         <h6><b>Course Rating : </b> {rating} {element}</h6>

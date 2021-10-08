@@ -10,13 +10,13 @@ const Course = (props) => {
     const element2 = <FontAwesomeIcon icon={faStarHalfAlt} />
 
     return (
-            <div className="col-5 p-0 m-4 course-card-custom-style">
+            <div className="col-lg-5 col-md-10 p-0 m-4 course-card-custom-style">
                 <div className="card p-0 bg-light">
                     <div className="d-flex justify-content-center m-0 p-0">
                         <div className="p-0 m-3 border border-3 border-secondary rounded bg-light">
                             <div className="row gy-5 align-items-center">
                                 <div className="col-lg-7 col-md-12 p-0">
-                                    <div className="p-0">
+                                    <div className="p-0 my-3">
                                         <img className="image img-gray" src={img} alt="" />
                                     </div>
                                 </div>

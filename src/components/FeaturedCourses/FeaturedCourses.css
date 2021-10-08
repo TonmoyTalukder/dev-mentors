@@ -1,8 +1,9 @@
 .image {
-  width: 75%;
+  width: 80%;
   height: 50%;
   border: 1px solid rgb(141, 140, 140);
   border-radius: 3px;
+  align-self: center;
 }
 .course {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
