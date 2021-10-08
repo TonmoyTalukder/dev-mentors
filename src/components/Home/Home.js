@@ -20,7 +20,7 @@ const Home = () => {
             <div class="container">
                 <div class="row gx-0 gy-5 my-3">
                     <div class="col p-0">
-                        <img src={img} alt="" />
+                        <img className="Dev-Mentors-Logo" src={img} alt="" />
                     </div>
                     <div class="col p-0 align-self-center text-secondary font-monospace fs-2">
                         <h2 className="fst-italic">Dev Mentors'</h2>
@@ -30,11 +30,11 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="authors container-fluid px-0 my-3">
-                <div className="authors-blog-container row g-2">
-                    <h2 className="font-monospace fs-1 textdec">Featured Courses</h2>                    
+            <div className="px-0 my-3">
+                <div className="">
+                    <h2 className="my-5 font-monospace fs-1 textdec">Featured Courses</h2>                    
                     <div className="container-fluid">
-                        <div className="authors-container row g-3 d-flex justify-content-center">
+                        <div className="row g-4 d-flex justify-content-center">
                             {
                                 courses.map(course => <FeaturedCourses
                                     course={course}

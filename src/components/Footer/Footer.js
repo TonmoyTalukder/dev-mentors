@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className="bg-dark text-light font-monospace m-0 p-5">
             <div>
-                <img style={{width: '75px'}} src={img} alt="" />
+                <img className="Dev-Mentors-Logo" style={{width: '75px'}} src={img} alt="" />
                 <h3 className="text-white-50">Dev Mentors'</h3>
                 <div class="mx-5 px-5 d-flex justify-content-center">
                     <div class="row px-5 mx-5 gx-0 w-50">

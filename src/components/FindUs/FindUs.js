@@ -17,7 +17,7 @@ const FindUs = () => {
                             <div className="container">
                                 <div className="row align-items-center justify-content-center font-monospace">
                                     <div className="col-lg-4 col-sm-12 font-monospace">
-                                        <img className="mx-auto w-50" src={img} alt="" />
+                                        <img className="mx-auto w-50 Dev-Mentors-Logo" src={img} alt="" />
                                         <br />
                                         <h1>Our Branches</h1>
                                         <h6>Reach Us</h6>

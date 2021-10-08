@@ -1,0 +1,14 @@
+.img-width {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  margin: 5px;
+}
+
+.card-custom-style {
+  background-color: rgb(241, 239, 239);
+}
+.card-custom-style:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #837e7e;
+}

@@ -15,14 +15,18 @@ const OurCourses = () => {
     }, [])
     return (
         <div>
-             <h2 className="font-monospace fs-1 textdeco">Our Courses</h2>
-            {
-                courses.map(course => <Course
-                    course={course}
-                    key={course.id}
-                    >
-                </Course>)    
-            }
+             <h2 className="font-monospace fs-1 textdeco my-5">Our Courses</h2>
+             <div className="container-fluid">
+                <div className="row g-4 d-flex justify-content-center">
+                    {
+                        courses.map(course => <Course
+                            course={course}
+                            key={course.id}
+                            >
+                        </Course>)    
+                    }
+                </div>
+            </div>
         </div>
     );
 };

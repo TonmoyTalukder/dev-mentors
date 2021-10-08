@@ -4,3 +4,11 @@
   border: 1px solid rgb(141, 140, 140);
   border-radius: 3px;
 }
+
+.course-card-custom-style {
+  background-color: rgb(255, 255, 255);
+}
+.course-card-custom-style:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #837e7e;
+}

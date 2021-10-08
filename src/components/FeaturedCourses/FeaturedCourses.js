@@ -10,18 +10,17 @@ const Course = (props) => {
     const element2 = <FontAwesomeIcon icon={faStarHalfAlt} />
 
     return (
-        <div className="container-fluid" >
-            <div className="col-lg-6 course mx-auto p-3 mb-4 ">
-                <div className="card p-3 border bg-light">
-                    <div className="d-flex justify-content-center">
-                        <div className="container-fluid p-4 m-3 border border-3 border-secondary rounded bg-light">
+            <div className="col-5 p-0 m-4 course-card-custom-style">
+                <div className="card p-0 bg-light">
+                    <div className="d-flex justify-content-center m-0 p-0">
+                        <div className="p-0 m-3 border border-3 border-secondary rounded bg-light">
                             <div className="row gy-5 align-items-center">
-                                <div className="col-lg-6 col-md-12 p-0">
+                                <div className="col-lg-7 col-md-12 p-0">
                                     <div className="p-0">
                                         <img className="image" src={img} alt="" />
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-md-12 p-0">
+                                <div className="col-lg-5 col-md-12 p-0">
                                     <div className="p-3 text-start">
                                         <h2>{title}</h2>
                                         <h5 className="text-danger"><b>Fees: $ {fees}</b></h5>
@@ -39,7 +38,7 @@ const Course = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        
     );
 };
 

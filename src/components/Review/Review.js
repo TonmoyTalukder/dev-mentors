@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './Review.css';
 import image1 from "../../images/img-1.jfif"
 import image2 from "../../images/img-2.jpg"
 import image3 from "../../images/img-3.jfif"
@@ -18,8 +18,8 @@ const Review = () => {
         <div className="mb-5 p-5">
             <h2 className="m-5 p-3 font-monospace fs-1 textdeco">Students' Review</h2>
            <div className="card-group">
-              <div className="card mx-2 border-2 rounded-3">
-                <img src={image1} className="card-img-top img-fluid " alt="..."/>
+              <div className="card mx-2 border-0 rounded-3 card-custom-style">
+                <img src={image1} className="card-img-top img-fluid rounded-circle img-width" alt="..."/>
                 <div className="card-body">
                   <h5 className="card-title">
                         Sam Smith
@@ -50,8 +50,8 @@ const Review = () => {
                   </div>
                 </div>
               </div>
-              <div className="card mx-2 border-2 rounded-3">
-                <img src={image2} className="card-img-top img-fluid" alt="..."/>
+              <div className="card mx-2 border-0 rounded-3 card-custom-style">
+                <img src={image2} className="card-img-top img-fluid rounded-circle img-width" alt="..."/>
                 <div className="card-body">
                   <h5 className="card-title">Jayden Christiansen</h5>
                   <p className="card-text">I was a student of there, now being a teacher feels kinda nostalgic.</p>
@@ -80,8 +80,8 @@ const Review = () => {
                   </div>
                 </div>
               </div>
-              <div className="card mx-2 border-2 rounded-3">
-                <img src={image3} className="card-img-top img-fluid" alt="..."/>
+              <div className="card mx-2 border-0 rounded-3 card-custom-style">
+                <img src={image3} className="card-img-top img-fluid rounded-circle img-width" alt="..."/>
                 <div className="card-body">
                   <h5 className="card-title">Monique Witting</h5>
                   <p className="card-text">The best couching center for science students who wants to learn computer programming, design etc</p>

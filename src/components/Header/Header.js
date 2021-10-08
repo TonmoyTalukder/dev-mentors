@@ -17,7 +17,7 @@ const Header = () => {
   })
     return (
         <div className="header bg-dark ">
-             <img className="logo" src={logo} alt="" />
+             <img className="logo Dev-Mentors-Logo" src={logo} alt="" />
              <animated.h3 className="font-monospace fst-italic fs-1" style={props}>Welcome to Dev Mentors'</animated.h3>
         </div>
     );

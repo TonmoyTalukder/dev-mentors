@@ -1,4 +1,5 @@
 import React from 'react';
+import './HeaderNav.css';
 import { NavLink } from 'react-router-dom';
 
 const HeaderNav = () => {
@@ -6,7 +7,7 @@ const HeaderNav = () => {
         <>
             <nav className="px-5 navbar navbar-expand-lg sticky-top navbar-light bg-light shadow p-1 mb-5 bg-body rounded">
                 <div className="container-fluid">
-                    <NavLink className="navbar-brand" to="/"><span className="nav-brand-yapp-mart fs-2 font-monospace fw-bolder">Dev Mentors' </span></NavLink>
+                    <NavLink className="navbar-brand" to="/"><span className="nav-brand-dev-mentors fs-2 font-monospace fw-bolder">Dev Mentors' </span></NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
